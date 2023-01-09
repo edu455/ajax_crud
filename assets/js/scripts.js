@@ -62,16 +62,6 @@ $(function () {
                 edit=false;
             });
         }
-        // const product_data={
-        //     name: $('#name').val(),
-        //     description: $('#description').val(),
-        //     supplier: $('#supplier').val(),
-        //     amount: $('#amount').val(),
-        //     price_per_unit: $('#price').val()
-        // };
-        // $.post('php_scripts/add_data.php',product_data,function(e){
-        //     console.log(e);
-        // });
         e.preventDefault();
         fetch_all();
         $('#product_form').trigger('reset');

@@ -42,7 +42,7 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`product_id`, `product_name`, `product_description`, `product_supplier`, `product_amount`, `product_price_per_unit`) VALUES
 (1, 'Coca Cola', 'Drink', 'The Coca Cola Company', 60, 1),
-(2, 'pepsi', 'dsadas', 'dasdas', 20, 69);
+(2, 'Pepsi', 'Drink', 'Pepsico', 20, 1);
 
 --
 -- Indexes for dumped tables

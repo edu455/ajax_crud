@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">STORE INVENTORY</h1>
+      <div class="row mt-5">
+        <div class="col-12">
+            <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Search" id="search">
+            </form>
+        </div>
+      </div>
+      <div class="row mt-5 border rounded">
+        <div class="col-4 p-3 border border-end">
+            <form id="product_form">
+              <input type="hidden" id="product_id" >
+                <div class="mb-3">
+                  <label for="name" class="form-label">NAME</label>
+                  <input type="text" class="form-control" id="name" >
+                </div>
+                <div class="mb-3">
+                  <label for="description" class="form-label">DESCRIPTION</label>
+                  <input type="text" class="form-control" id="description" >
+                </div>
+                <div class="mb-3">
+                    <label for="supplier" class="form-label">SUPPLIER</label>
+                    <input type="text" class="form-control" id="supplier" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="amount" class="form-label">AMOUNT</label>
+                    <input type="number" class="form-control" id="amount" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="price" class="form-label">PRICE PER UNIT</label>
+                    <input type="number" class="form-control" id="price" >
+                  </div>
+                <input type="submit" value="Add" class="btn btn-primary">
+              </form>
+        </div>
+        <div class="col-8 p-3">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">DESCRIPTION</th>
+                    <th scope="col">SUPPLIER</th>
+                    <th scope="col">AMOUNT</th>
+                    <th scope="col">PRICE PER UNIT</th>
+                    <th scope="col">ACTIONS</th>
+                  </tr>
+                </thead>
+                <tbody id="table_body">
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
+                  </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js" ></script>
+    <script src="assets/js/jquery-3.6.3.min.js" ></script>
+    <script src="assets/js/scripts.js" ></script>
+  </body>
+</html>
